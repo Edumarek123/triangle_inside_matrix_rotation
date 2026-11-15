@@ -1,5 +1,23 @@
-Draw a triangle pattern inside a matrix.
+# Triangle Pattern Inside a Matrix
 
-Desenhar um padrão triangular dentro de matriz.
+A compact C++ exercise that draws a triangular pattern inside a matrix.
 
-Autor(author): Eduardo Marek. Data(date): 02/2024.
+## Overview
+
+The project focuses on matrix indexing and coordinate transformations to generate a geometric pattern.
+
+## Technologies
+
+- C++
+
+## Repository contents
+
+- `main.cpp` — implementation
+
+## Purpose
+
+A small programming exercise in arrays, matrix traversal, and geometric pattern generation.
+
+## Status
+
+Educational exercise.
