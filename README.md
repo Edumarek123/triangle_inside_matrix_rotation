@@ -2,30 +2,49 @@
 
 # Triangle Pattern Inside a Matrix
 
-**A compact C++ exercise in matrix traversal and geometric pattern generation.**
+**A focused C++ exercise in two-dimensional indexing and pattern generation.**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Topic](https://img.shields.io/badge/topic-matrices-6f42c1)
-![Status](https://img.shields.io/badge/status-exercise-lightgrey)
+![Scope](https://img.shields.io/badge/scope-programming%20exercise-lightgrey)
 
 </div>
 
+## Contents
+
+- [Overview](#overview)
+- [Problem focus](#problem-focus)
+- [Algorithm outline](#algorithm-outline)
+- [Build and run](#build-and-run)
+- [Repository structure](#repository-structure)
+- [Learning outcomes](#learning-outcomes)
+- [License](#license)
+
 ## Overview
 
-This repository contains a small program that draws a triangular pattern inside a matrix. It is focused on array indexing, two-dimensional data structures, and the logic needed to generate a geometric arrangement.
+This repository contains a compact C++ program that generates a triangular pattern inside a matrix. It is intended as an exercise in coordinate handling, nested loops, and two-dimensional data structures.
 
-## Concepts
+## Problem focus
 
-- Two-dimensional arrays / matrices
-- Row and column traversal
-- Pattern generation
-- Coordinate and index transformations
+The program focuses on mapping a geometric pattern to matrix positions. The repository name also references matrix rotation, so the source should be consulted for the exact transformation and output behavior.
 
-## Getting started
+## Algorithm outline
+
+```mermaid
+flowchart TD
+    A[Initialize matrix] --> B[Iterate rows and columns]
+    B --> C[Evaluate pattern condition]
+    C --> D[Assign matrix cell]
+    D --> E[Print / inspect result]
+```
+
+This is a conceptual outline of matrix-based pattern generation, not a substitute for the implementation in `main.cpp`.
+
+## Build and run
 
 ### Requirements
 
-- A C++ compiler
+- C++ compiler
 
 ### Compile
 
@@ -39,18 +58,24 @@ g++ -std=c++11 -O2 -Wall -Wextra main.cpp -o matrix_pattern
 ./matrix_pattern
 ```
 
-## Repository layout
+On Windows, run the generated executable from the terminal.
+
+## Repository structure
 
 ```text
-.
+triangle_inside_matrix_rotation/
 ├── main.cpp
 └── README.md
 ```
 
-## Project status
+## Learning outcomes
 
-A focused programming exercise intended to demonstrate matrix-based pattern generation.
+- Matrix representation and indexing
+- Nested-loop traversal
+- Geometric pattern conditions
+- Coordinate transformations
+- C++ compilation and execution
 
 ## License
 
-No license file was identified in the repository at the time of writing. Contact the author before redistributing or reusing the project.
+No `LICENSE` file is currently included. Unless a license is added, reuse and redistribution permissions are not granted by this repository.
